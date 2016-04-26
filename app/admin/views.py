@@ -28,7 +28,7 @@ from app.education.models import Course, User_course
 from app.user.models import regUser
 
 from app.education.updata_user_courses import updata
-from app.education.update_allCourse_single import updata_allCourses
+from app.education.updata_allCourse_single import updata_allCourses
 from app.education.courses_lis import urp_courses
 
 from gevent.monkey import patch_all
