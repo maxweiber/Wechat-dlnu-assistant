@@ -8,8 +8,8 @@ import sys
 reload(sys)
 sys.setdefaultencoding('UTF-8')
 
-appid = ''
-secret = ''
+appid = 'wxef85deedd1748b2a'
+secret = 'decb0d4bf6fb59123eec8c03c20eadda'
 
 gettoken = 'https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=' + appid + '&secret=' + secret
 
